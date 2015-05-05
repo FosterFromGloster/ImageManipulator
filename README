@@ -1,0 +1,50 @@
+Assignment 4
+Author: James Foster
+Image Manipulation
+
+This program can perform a number of operation on images including thresholds, addiition,subtration, masking and inverting. The method tot run each operation is detailed below. The program will output the resulting image to the directory from which it is held.
+
+There are unit tests that test various sections of the program. Details on how to run the unit tests are listed below.
+
+Instructions to run the program:
+	To run the program perform the following commands
+	Make:
+		in project directory type "Make"
+	Invert: 
+		./imageops -i I1 (where I1 is the name of the image to invert) 
+	
+	Subtraction:
+		./imageops -s I1 I2 ( Subtract I2 from i1)
+
+	Addition:
+		./imageops -a I1 I2 
+	
+	Threshold:
+		./imageops -t I1 f (where f is the value to threshold by)
+
+	Mask:
+		./imageops -l I1 I2 (mask I1 with I2)
+
+To run the unit tests:
+	Make:
+		in project directory type "Make"
+	Test:
+		type run_unittest
+
+Files included in the project
+	Image.cpp
+	ImageHeader.h
+	unittests.cpp
+	catch.hpp
+	LennaAddition
+	LennaSubtraction
+	LennaMask
+	Lenna_hat_mask
+	LennaInversion
+	Lennathreshold
+	makefile
+	ImageDriver.cpp
+	
+	
+		
+		
