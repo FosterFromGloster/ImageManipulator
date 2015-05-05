@@ -2,7 +2,7 @@ Assignment 4
 Author: James Foster
 Image Manipulation
 
-This program can perform a number of operation on images including thresholds, addiition,subtration, masking and inverting. The method tot run each operation is detailed below. The program will output the resulting image to the directory from which it is held.
+This program can perform a number of operation on images including thresholds, addition,subtraction, masking and inverting. The method to run each operation is detailed below. The program will output the resulting image to the directory from which it is held.
 
 There are unit tests that test various sections of the program. Details on how to run the unit tests are listed below.
 
